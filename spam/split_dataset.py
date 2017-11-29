@@ -12,7 +12,6 @@ data_train, data_test, labels_train, labels_test = train_test_split(
     test_size=0.2, 
     random_state=0)
 
-data_test.to_csv('spam_test_data.csv')
-data_train.to_csv('spam_train_data.csv')
-labels_train.to_csv('spam_train_label.csv')
-labels_test.to_csv('spam_test_label.csv')
+data_train.to_csv('train.csv')
+data_test.to_csv('test.csv')
+labels_test.to_csv('correct_submission.csv')
