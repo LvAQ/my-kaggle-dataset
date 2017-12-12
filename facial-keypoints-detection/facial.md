@@ -1,6 +1,6 @@
 # Facial Keypoints Detection
 
-## 你能教会计算机识别五大洲人种的眼口鼻喉吗？
+## 你能教会计算机识别五大洲人种的眼耳鼻喉吗？
 
 Link: [https://www.kaggle.com/c/facial-keypoints-detection](https://www.kaggle.com/c/facial-keypoints-detection)
 
