@@ -1,61 +1,26 @@
-\# Facial Keypoints Detection
+# Facial Keypoints Detection
 
-  
-
-
-\#\# 你能教会计算机识别五大洲人种的眼耳鼻喉吗？
-
-  
-
+## 你能教会计算机识别五大洲人种的眼耳鼻喉吗？
 
 Link:
 
-\[
+\[[https://www.kaggle.com/c/facial-keypoints-detection](https://www.kaggle.com/c/facial-keypoints-detection)\]
 
-https://www.kaggle.com/c/facial-keypoints-detection
-
-\]
-
-\(
-
-https://www.kaggle.com/c/facial-keypoints-detection
-
-\)
-
-  
-
+\([https://www.kaggle.com/c/facial-keypoints-detection](https://www.kaggle.com/c/facial-keypoints-detection)\)
 
 \#\#\# 题目描述
 
-  
-
-
 从人物头像的96x96像素的灰度照片中找出代表面部器官位置的关键点（keypoints）的坐标，关键点包括左右眼中心等，共15个。
 
-  
-
-
 \#\#\# 先修技能
-
-  
-
 
 \*
 
 CNN的相关知识。
 
-  
-
-
 \#\#\# 输入格式
 
 训练集给了大约5000个人物头像的灰度图片，像素96x96，灰度0-255，图片数据的矩阵被整理成一维向量，并附有每个头像15个关键点（keypoints）的位置坐标（x轴y轴）。
-
-  
-
-
-  
-
 
 \*
 
@@ -83,23 +48,11 @@ CNN的相关知识。
 
 是一个提交格式的样例。
 
-  
-
-
 \#\#\# 输出格式
-
-  
-
 
 根据测试集给出的头像图片数据，预测出每个人物头像的关键点的位置坐标，输出格式如下所示：
 
-  
-
-
 如下所示：
-
-  
-
 
 \`\`\`
 
@@ -117,13 +70,7 @@ etc...
 
 \`\`\`
 
-  
-
-
 \#\#\# 评价
-
-  
-
 
 使用RMSE作为最后评判标准
 
@@ -137,30 +84,15 @@ RMSE，方均根偏移\(
 
 \)是一种常用的测量数值之间差异的量度。具体公式如下：
 
-  
-
-
-  
-
-
 !\[\]
 
 \(
 
-http://www.statisticshowto.com/wp-content/uploads/2016/10/root-mean-square-error.png
+[http://www.statisticshowto.com/wp-content/uploads/2016/10/root-mean-square-error.png](http://www.statisticshowto.com/wp-content/uploads/2016/10/root-mean-square-error.png)
 
 \)
 
-  
-
-
-  
-
-
 \#\#\# 代码与数据
-
-  
-
 
 \*
 
@@ -168,13 +100,13 @@ train：
 
 \[
 
-https://www.kaggle.com/c/facial-keypoints-detection/download/training.zip
+[https://www.kaggle.com/c/facial-keypoints-detection/download/training.zip](https://www.kaggle.com/c/facial-keypoints-detection/download/training.zip)
 
 \]
 
 \(
 
-https://www.kaggle.com/c/facial-keypoints-detection/download/training.zip
+[https://www.kaggle.com/c/facial-keypoints-detection/download/training.zip](https://www.kaggle.com/c/facial-keypoints-detection/download/training.zip)
 
 \)
 
@@ -184,13 +116,13 @@ test：
 
 \[
 
-https://www.kaggle.com/c/facial-keypoints-detection/download/test.zip
+[https://www.kaggle.com/c/facial-keypoints-detection/download/test.zip](https://www.kaggle.com/c/facial-keypoints-detection/download/test.zip)
 
 \]
 
 \(
 
-https://www.kaggle.com/c/facial-keypoints-detection/download/test.zip
+[https://www.kaggle.com/c/facial-keypoints-detection/download/test.zip](https://www.kaggle.com/c/facial-keypoints-detection/download/test.zip)
 
 \)
 
@@ -200,23 +132,17 @@ samplesubmission:
 
 \[
 
-https://www.kaggle.com/c/facial-keypoints-detection/download/SampleSubmission.csv
+[https://www.kaggle.com/c/facial-keypoints-detection/download/SampleSubmission.csv](https://www.kaggle.com/c/facial-keypoints-detection/download/SampleSubmission.csv)
 
 \]
 
 \(
 
-https://www.kaggle.com/c/facial-keypoints-detection/download/SampleSubmission.csv
+[https://www.kaggle.com/c/facial-keypoints-detection/download/SampleSubmission.csv](https://www.kaggle.com/c/facial-keypoints-detection/download/SampleSubmission.csv)
 
 \)
 
-  
-
-
 \#\#\# 完整代码
-
-  
-
 
 \*
 
@@ -224,34 +150,19 @@ https://www.kaggle.com/c/facial-keypoints-detection/download/SampleSubmission.cs
 
 \[
 
-http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/
+[http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/](http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/)
 
 \]
 
 \(
 
-http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/
+[http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/](http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/)
 
 \)
 
-  
-
-
-  
-
-
-  
-
-
 \#\#\# 测评配置环境
 
-  
-
-
 python
-
-  
-
 
 \`\`\`
 
@@ -263,13 +174,7 @@ pip install -U scikit-learn
 
 \`\`\`
 
-  
-
-
 测评代码
-
-  
-
 
 \`\`\`py
 
