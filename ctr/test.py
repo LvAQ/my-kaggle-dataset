@@ -6,7 +6,7 @@ from sklearn.metrics import log_loss
 
 
 correct = pd.read_csv('./correct_submission.csv', encoding='latin-1')
-predict = pd.read_csv('./correct_submission.csv', encoding='latin-1')
+predict = pd.read_csv('./prediction_test.csv', encoding='latin-1')
 correct_arr = []
 predict_arr = []
 
